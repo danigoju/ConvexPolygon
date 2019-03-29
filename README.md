@@ -53,7 +53,7 @@ operations between them, and usefull information we can ask about.
 
 ··* **Bounding Box:** Given a set of convex polygons, find the smallest bounding box that encloses all polygons.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Minimum_bounding_rectangle.svg/1200px-Minimum_bounding_rectangle.svg.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Minimum_bounding_rectangle.svg/1200px-Minimum_bounding_rectangle.svg.pnghttps://camo.githubusercontent.com/de0f481e05a986f9f3864e81989186bec38c68b3/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35622f4d696e696d756d5f626f756e64696e675f72656374616e676c652e7376672f32303070782d4d696e696d756d5f626f756e64696e675f72656374616e676c652e7376672e706e67)
 
 ··* **Inside:** We can check whether a convex polygon is inside another convex polygon.
 
