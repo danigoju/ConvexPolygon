@@ -15,14 +15,14 @@ depending on which Operative System you are using:
 
 * For **Linux** and **iOS**:
 
-··· Install the PngWriter library, in order to be able to draw your polygons.
-More info about de download in it's github repository: <https://github.com/pngwriter/pngwriter>
+1. Install the PngWriter library, in order to be able to draw your polygons.
+More info about the download in it's github repository: <https://github.com/pngwriter/pngwriter>
 
-···Download the folder with all it's containing files and execute the command make
+2. Download the folder with all it's containing files and execute the command make
 in your command line executer.
 
 * For **Windows** :
-···It is not supported, although it might work making some small modifications.
+⋅⋅⋅It is not supported, although it might work making some small modifications.
 
 ### The Convex Polygon
 A convex polygon is a simple polygon in which all its interior angles are strictly less
