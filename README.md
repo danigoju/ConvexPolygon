@@ -12,7 +12,12 @@ for you objectives.
 ### Installation
 In order to install the ConvexPolygon Calculator, you have to do the following,
 depending on which Operative System you are using:
+
 ··* For **Linux** and **iOS**:
+
+··· Install the PngWriter library, in order to be able to draw your polygons.
+More info about de download in it's github repository: <https://github.com/pngwriter/pngwriter>
+
 ···Download the folder with all it's containing files and execute the command make
 in your command line executer.
 
@@ -44,7 +49,7 @@ operations between them, and usefull information we can ask about.
 
 ··* **Intersection:** The intersection of two convex polygons is a convex polygon.
 
-![alt text](https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/8b51780ae13afea8b07233d3212c2aa84fdf090f/3-Figure2-1.png)
+![alt text](http://esri.github.io/geometry-api-java/doc/Images/Relate/Relate1.jpg)
 
 ··* **Bounding Box:** Given a set of convex polygons, find the smallest bounding box that encloses all polygons.
 
