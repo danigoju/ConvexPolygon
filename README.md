@@ -13,7 +13,7 @@ for you objectives.
 In order to install the ConvexPolygon Calculator, you have to do the following,
 depending on which Operative System you are using:
 
-··* For **Linux** and **iOS**:
+* For **Linux** and **iOS**:
 
 ··· Install the PngWriter library, in order to be able to draw your polygons.
 More info about de download in it's github repository: <https://github.com/pngwriter/pngwriter>
@@ -21,7 +21,7 @@ More info about de download in it's github repository: <https://github.com/pngwr
 ···Download the folder with all it's containing files and execute the command make
 in your command line executer.
 
-··* For **Windows** :
+* For **Windows** :
 ···It is not supported, although it might work making some small modifications.
 
 ### The Convex Polygon
@@ -39,38 +39,38 @@ Now, we are going to define some utilities that can be done with Convex Polygons
 operations between them, and usefull information we can ask about.
 
 #### Convex Polygon operations
-··* **Convex Hull:** Given a set of points, we can calculate the smallest convex polygon that contains the set.
+* **Convex Hull:** Given a set of points, we can calculate the smallest convex polygon that contains the set.
 
 ![alt text](https://miro.medium.com/max/1354/1*F4IUmOJbbLMJiTgHxpoc7Q.png)
 
-··* **Convex Union:** Given two convex polygons, the convex union is the smallest convex polygon that contains both polygons. Equivalently, it is the convex hull of both polygons.
+* **Convex Union:** Given two convex polygons, the convex union is the smallest convex polygon that contains both polygons. Equivalently, it is the convex hull of both polygons.
 
 ![alt text](https://daveagp.files.wordpress.com/2009/09/union.png)
 
-··* **Intersection:** The intersection of two convex polygons is a convex polygon.
+* **Intersection:** The intersection of two convex polygons is a convex polygon.
 
 ![alt text](http://esri.github.io/geometry-api-java/doc/Images/Relate/Relate1.jpg)
 
-··* **Bounding Box:** Given a set of convex polygons, find the smallest bounding box that encloses all polygons.
+* **Bounding Box:** Given a set of convex polygons, find the smallest bounding box that encloses all polygons.
 
 ![alt text](https://camo.githubusercontent.com/de0f481e05a986f9f3864e81989186bec38c68b3/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f352f35622f4d696e696d756d5f626f756e64696e675f72656374616e676c652e7376672f32303070782d4d696e696d756d5f626f756e64696e675f72656374616e676c652e7376672e706e67)
 
-··* **Inside:** We can check whether a convex polygon is inside another convex polygon.
+* **Inside:** We can check whether a convex polygon is inside another convex polygon.
 
 ![alt text](http://cgm.cs.mcgill.ca/~athens/cs507/Projects/2003/DanielSud/poly2.gif)
 
 
 ### Convex Polygon information
-··* Number of **vertices** and **edges**
-··* Length of the **perimeter**
-··* **Area**
-··* Coordinates of the **centroid**
+* Number of **vertices** and **edges**
+* Length of the **perimeter**
+* **Area**
+* Coordinates of the **centroid**
 
 ### Particular cases
 For convenience, we will consider some particular cases of polygons (not always recognized as polygons by mathematicians):
-··* **Empty polygon:**  a polygon with zero vertices.
-··* **Monogon:**  a polygon with one vertex (a point).
-··* **Digon:**  a polygon with two vertices (a segment).
+* **Empty polygon:**  a polygon with zero vertices.
+* **Monogon:**  a polygon with one vertex (a point).
+* **Digon:**  a polygon with two vertices (a segment).
 
 ## The ConvexPolygon Calculator
 The calculator consists on a command line reader which will play the following commands,
@@ -133,9 +133,9 @@ The `draw` command draws a list of polygons in a PNG file, each one with its ass
 #### `intersection`
 This command may receive two or three parameters:
 
-··* When receiving two parameters p1and `p2`, `p1` should be updated to the intersection of the original `p1` and `p2`.
+* When receiving two parameters p1and `p2`, `p1` should be updated to the intersection of the original `p1` and `p2`.
 
-··* When receiving three parameters `p1`, `p2` and `p3`, `p1` should be updated to the intersection of `p2` and `p3`.
+* When receiving three parameters `p1`, `p2` and `p3`, `p1` should be updated to the intersection of `p2` and `p3`.
 
 Take into account that identifiers may be repeated.
 
