@@ -91,7 +91,7 @@ triangle1 2 14 38 14 19 35
 The output(right column), from the left input should look like this:
 
 ```
-| # Example test for ConvexPolygon Calculator|#                                                     |
+|# Example test for ConvexPolygon Calculator |#                                                     |
 |# Now we create a square                    |#                                                     |
 |# and we explore its properties             |#                                                     |
 |polygon p1 0 0 2 0 2 2 0 2                  |ok                                                    |
@@ -111,6 +111,7 @@ The output(right column), from the left input should look like this:
 |setcol pentagon1 1 0 0                      |ok                                                    |
 |draw image.png pentagon1 triangle1          |ok                                                    |
 |save polygons_data.txt                      |ok                                                    |
+|--------------------------------------------|------------------------------------------------------|
 ```
 
 , where the resulting ```image.png``` should look like the following one:
