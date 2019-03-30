@@ -91,6 +91,7 @@ triangle1 2 14 38 14 19 35
 The output(right column), from the left input should look like this:
 
 ```
+| -------------------------------------------|------------------------------------------------------|
 | # Example test for ConvexPolygon Calculator|#                                                     |
 |# Now we create a square                    |#                                                     |
 |# and we explore its properties             |#                                                     |
@@ -127,7 +128,9 @@ triangle1 2.000 14.000 38.000 14.000 19.000 35.000
 ```
 
 
-#### Points
+
+
+### Points
 Points in the commands are given by two pairs of real numbers, in standard notation, to denote the X and Y coordinates. For instance, `0 0` or `3.14 -5.5`. When printed, all real numbers must be formatted with three digits after the decimal dot.
 
 ### Polygon Identifiers
