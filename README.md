@@ -114,9 +114,6 @@ The output(right column), from the left input should look like this:
 |--------------------------------------------|------------------------------------------------------|
 ```
 
-| -------- | ----------- || # Example test for ConvexPolygon Calculator <br> # Now we create a square an we explore its properties <br> polygon p1 0 0 2 0 2 2 0 2 <br> vertices p1 <br> perimeter p1 area p1 centroid p1 print p1 # now we load from the file example_test.txt load example_test.txt list inside pentagon1 triangle1 inside triangle1 pentagon1 bbox p3 pentagon1 triangle1 print p3 setcol triangle1 0 0 1 setcol pentagon1 1 0 0 draw image.png pentagon1 triangle1 save polygons_data.txt | # # ok 4 8.000 4.000 1.000 1.000 p1 0.000 0.000 2.000 0.000 2.000 2.000 0.000 2.000  # ok  p1 pentagon1 triangle1  no yes ok p3 2.000 1.000 38.000 1.000 38.000 35.000 2.000 35.000  ok p3 2.000 14.000 2.000 14.000 9.000 35.000 31.000 35.000 38.000 14.000 20.000 1.000  ok ok ok |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 
 
 , where the resulting ```image.png``` should look like the following one:
