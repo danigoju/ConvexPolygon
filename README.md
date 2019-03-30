@@ -114,6 +114,10 @@ The output(right column), from the left input should look like this:
 |--------------------------------------------|------------------------------------------------------|
 ```
 
+| qwrq | werwe |
+|------|-------|
+
+
 , where the resulting ```image.png``` should look like the following one:
 
 ![alt text](https://github.com/danigoju/ConvexPolygon/blob/master/image.png?raw=true)
