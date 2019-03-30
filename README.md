@@ -78,7 +78,52 @@ some of which results have been explained in the previous sections. Each command
 a line of output.
 
 ### A usage example
+Using the iostream library, the program must read and write in the console
+like in the following example.
 
+Given a ```example.txt``` text file which contains:
+
+``` pentagon1 9 35 31 35 38 14 20 1 2 14
+triangle1 2 14 38 14 19 35
+```
+
+The output(right column), from the left input should look like this:
+
+```
+| # Example test for ConvexPolygon Calculator|#                                                     |
+|# Now we create a square                    |#                                                     |
+|# and we explore its properties             |#                                                     |
+|polygon p1 0 0 2 0 2 2 0 2                  |ok                                                    |
+|vertices p1                                 |4                                                     |
+|perimeter p1                                |8.000                                                 |
+|area p1                                     |4.000                                                 |
+|centroid p1                                 |1.000 1.000                                           |
+|print p1                                    |p1 0.000 0.000 2.000 0.000 2.000 2.000 0.000 2.000    |
+|# now we load from the file example_test.txt|#                                                     |
+|load example_test.txt                       |ok                                                    |
+|list                                        |p1 pentagon1 triangle1                                |
+|inside pentagon1 triangle1                  |no                                                    |
+|inside triangle1 pentagon1                  |yes                                                   |
+|bbox p3 pentagon1 triangle1                 |ok                                                    |
+|print p3                                    |p3 2.000 1.000 38.000 1.000 38.000 35.000 2.000 35.000|
+|setcol triangle1 0 0 1                      |ok                                                    |
+|setcol pentagon1 1 0 0                      |ok                                                    |
+|draw image.png pentagon1 triangle1          |ok                                                    |
+|save polygons_data.txt                      |ok                                                    |
+| -------------------------------------------|------------------------------------------------------|
+```
+
+, where the resulting ```image.png``` should look like the following one:
+
+![alt text](https://github.com/danigoju/ConvexPolygon/blob/master/image.png?raw=true)
+
+
+and the polygons_data.txt should be like this:
+
+```p3 2.000 14.000 2.000 14.000 9.000 35.000 31.000 35.000 38.000 14.000 20.000 1.000
+pentagon1 9.000 35.000 31.000 35.000 38.000 14.000 20.000 1.000 2.000 14.000
+triangle1 2.000 14.000 38.000 14.000 19.000 35.000
+```
 
 
 #### Points
