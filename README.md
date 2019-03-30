@@ -83,7 +83,8 @@ like in the following example.
 
 Given a ```example.txt``` text file which contains:
 
-``` pentagon1 9 35 31 35 38 14 20 1 2 14
+```
+pentagon1 9 35 31 35 38 14 20 1 2 14
 triangle1 2 14 38 14 19 35
 ```
 
@@ -110,7 +111,6 @@ The output(right column), from the left input should look like this:
 |setcol pentagon1 1 0 0                      |ok                                                    |
 |draw image.png pentagon1 triangle1          |ok                                                    |
 |save polygons_data.txt                      |ok                                                    |
-| -------------------------------------------|------------------------------------------------------|
 ```
 
 , where the resulting ```image.png``` should look like the following one:
@@ -120,7 +120,8 @@ The output(right column), from the left input should look like this:
 
 and the polygons_data.txt should be like this:
 
-```p3 2.000 14.000 2.000 14.000 9.000 35.000 31.000 35.000 38.000 14.000 20.000 1.000
+```
+p3 2.000 14.000 2.000 14.000 9.000 35.000 31.000 35.000 38.000 14.000 20.000 1.000
 pentagon1 9.000 35.000 31.000 35.000 38.000 14.000 20.000 1.000 2.000 14.000
 triangle1 2.000 14.000 38.000 14.000 19.000 35.000
 ```
